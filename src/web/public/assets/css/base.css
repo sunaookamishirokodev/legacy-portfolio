@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+    /* Biến Color */
+    --white-color: #fff;
+    --black-color: #000;
+    --blue-color: #1d6ff6;
+    --background-color: #1c1c1c;
+    --background-div: #575757;
+    --text-color: #e3e3e3;
+    --button-color: #7c7c7c;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    /* HACK */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Lato', sans-serif;
+    background-color: #121212;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow: hidden auto;
+}
+
+body {
+    box-sizing: border-box;
+    -moz-box-sizing: inherit;
+    touch-action: manipulation;
+    -ms-touch-action: manipulation;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    overscroll-behavior: none;
+    -webkit-user-drag: none;
+    -ms-content-zooming: none;
+}
+
+.profile {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid {
+    width: 100%;
+    display: block;
+    padding: 0 5vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none
+}
+
+/* Disable */
+.disable {
+    background: #c6c6c6 !important;
+    cursor: default;
+}
+
+/* 3D */
+.active-3d:hover {
+    transform: skew(-5deg);
+    box-shadow: 10px 10px rgba(255, 255, 255, 0.4),
+                20px 20px rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive */
+
+/* Hyper Ipad */
+@media (max-width: 1059px) {
+    .full-width {
+        flex: 1;
+        max-width: 100%;
+        min-width: 100%;
+    }
+}
+
+/* Ipad + Mobile */
+@media (max-width: 1023px) {
+    .container-box {
+        margin: 26px;
+    }
+}
+
+/* Only Ipad */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .grid {
+        padding: 0 10vh;
+    }
+}
+
+/* Only Mobile */
+@media (max-width: 739px) {
+    .grid {
+        padding: 0;
+    }
+
+    .banner__avatar {
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        bottom: -120px;
+        left: 0;
+    }
+
+    .banner__avatar-name {
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+}

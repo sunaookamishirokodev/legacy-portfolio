@@ -1,0 +1,241 @@
+.banner__background {
+    position: relative;
+}
+
+.banner__background-img {
+    background: url(/src/web/public/assets/img/background_3.jpg) center/cover no-repeat;
+    padding-bottom: 26%;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    position: relative;
+}
+
+.banner__avatar {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    bottom: -70px;
+    left: 40px;
+}
+
+.banner__avatar-img {
+    background: url(/src/web/public/assets/img/avatar_shiroko.jpg) center/cover no-repeat;
+    border: 8px solid var(--background-color);
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+}
+
+.banner__avatar-name {
+    display: block;
+    margin: 0 0 28px 16px;
+    color: var(--text-color);
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    height: 100%;
+}
+
+/* Container */
+.container {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-left {
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+    min-width: 395px;
+}
+
+.container-left .container-box {
+    transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+}
+
+.container-right {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+    min-width: 480px;
+}
+
+.container-right .container-box {
+    transform: translateX(100%);
+    -o-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+}
+
+.container-box {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 20px;
+    margin: 26px 13px 26px 13px;
+    border-radius: 10px;
+    will-change: transform;
+    opacity: 0;
+    transition: all ease-out 0.5s;
+    -o-transition: all ease-out 0.5s;
+    -ms-transition: all ease-out 0.5s;
+    -webkit-transition: all ease-out 0.5s;
+    -moz-transition: all ease-out 0.5s;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1),
+        0 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.container-box.active-IO {
+    opacity: 1;
+    transform: translateX(0);
+    -o-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+}
+
+.container-box__title {
+    display: block;
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 12px
+}
+
+.content-item__text {
+    color: var(--text-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+
+.container-box__content-item {
+    margin-bottom: 6px;
+}
+
+.content-item__icon,
+.content-item__text.large {
+    display: inline-block;
+    font-size: inherit;
+}
+
+.content-item__icon {
+    width: 24px;
+    text-align: center;
+}
+
+.content-item__text.large {
+    width: 72px;
+    text-align: start;
+}
+
+/* Process box */
+.process-box__start {
+    font-size: 1.6rem;
+    width: 30px;
+}
+
+.process-box__start.large {
+    width: 72px;
+}
+
+.process-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.process-box__bar {
+    flex: 1;
+    height: 6px;
+    margin: auto;
+    border-radius: 2.5px;
+    background-color: var(--background-div);
+}
+
+.process-box__bar--percent {
+    width: 0;
+    height: inherit;
+    border-radius: inherit;
+    background-color: var(--blue-color);
+    will-change: transform;
+    opacity: 0;
+    transition: all ease-out 0.8s 0.5s;
+    -o-transition: all ease-out 0.8s 0.5s;
+    -ms-transition: all ease-out 0.8s 0.5s;
+    -webkit-transition: all ease-out 0.8s 0.5s;
+    -moz-transition: all ease-out 0.8s 0.5s;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1),
+        0 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.process-box__bar--percent.active-IO {
+    opacity: 1;
+    width: var(--process);
+}
+
+.process-box__end>.content-item__text {
+    display: block;
+    width: 48px;
+    text-align: end;
+}
+
+/* Post box */
+.container-box__content-header.post-header {
+    display: flex;
+}
+
+.container-box__content-img.post-img {
+    background: url(/src/web/public/assets/img/avatar_shiroko.jpg) center/cover no-repeat;
+    border-radius: 100%;
+    height: 48px;
+    width: 48px;
+    margin-right: 10px;
+}
+
+.container-box__content-title.post-title {
+    display: block;
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+}
+
+.container-box__content-time.post-time {
+    display: block;
+    font-size: 1.6rem;
+}
+
+.container-box__img {
+    display: block;
+    width: 100%;
+    margin: 18px 0;
+    border-radius: 10px;
+    border: 2px solid var(--text-color);
+}
+
+.container-box__content-footer.post-footer {
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-box__content-footer--btn {
+    border: 2px solid var(--text-color);
+    background-color: transparent;
+    border-radius: 50px;
+    line-height: 48px;
+    text-align: center;
+    cursor: pointer;
+    width: 45%;
+}
+
+.container-box__content-footer--btn:hover {
+    background-color: var(--button-color);
+}
+
+.content-item__icon.post-icon {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    width: 24px;
+}
