@@ -90,6 +90,11 @@ ul {
     .container-box {
         margin: 26px;
     }
+
+    .disable-3d {
+        transform: none !important;
+        box-shadow: none !important;
+    }
 }
 
 /* Only Ipad */
@@ -103,6 +108,10 @@ ul {
 @media (max-width: 739px) {
     .grid {
         padding: 0;
+    }
+
+    .banner__background-img {
+        padding-bottom: 50%;
     }
 
     .banner__avatar {
