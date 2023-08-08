@@ -4,8 +4,8 @@
     const leftProfileContainer = document.querySelector('.container-left')
     const rightProfileContainer = document.querySelector('.container-right')
     
-    const performtems = processList.querySelectorAll('.process-box__bar--percent')
-    const performItems = performList.querySelectorAll('.process-box__bar--percent')
+    const performtems = processList.querySelectorAll('.container-box__skillBar--percent')
+    const performItems = performList.querySelectorAll('.container-box__skillBar--percent')
     const leftItems = leftProfileContainer.querySelectorAll('.container-box')
     const rightItems = rightProfileContainer.querySelectorAll('.container-box')
 

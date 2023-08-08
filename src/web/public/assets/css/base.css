@@ -19,7 +19,7 @@
 }
 
 html {
-    /* HACK */
+    /* TODO: hack */
     font-size: 62.5%;
     line-height: 1.6rem;
     font-family: 'Lato', sans-serif;
@@ -62,23 +62,22 @@ ul {
 }
 
 /* Disable */
-.disable {
+.btn-disable {
     background: #c6c6c6 !important;
     cursor: default;
 }
 
 /* 3D */
-.active-3d:hover {
+.container-box--3d-active:hover {
     transform: skew(-5deg);
     box-shadow: 10px 10px rgba(255, 255, 255, 0.4),
                 20px 20px rgba(255, 255, 255, 0.1);
 }
 
-/* Responsive */
-
+/* TODO: Responsive */
 /* Hyper Ipad */
 @media (max-width: 1059px) {
-    .full-width {
+    .col-full {
         flex: 1;
         max-width: 100%;
         min-width: 100%;
@@ -91,7 +90,7 @@ ul {
         margin: 26px;
     }
 
-    .disable-3d {
+    .container-box--3d-disable {
         transform: none !important;
         box-shadow: none !important;
     }

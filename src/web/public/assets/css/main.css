@@ -36,7 +36,7 @@
     height: 100%;
 }
 
-/* Container */
+/* TODO: Container */
 .container {
     margin-top: 100px;
     display: flex;
@@ -105,7 +105,7 @@
     margin-bottom: 12px
 }
 
-.content-item__text {
+.container-box__text {
     color: var(--text-color);
     font-size: 1.6rem;
     font-weight: 500;
@@ -116,38 +116,38 @@
     margin-bottom: 6px;
 }
 
-.content-item__icon,
-.content-item__text.large {
+.container-box__icon,
+.container-box__text.container-box--large {
     display: inline-block;
-    font-size: inherit;
+    font-size: 1.6rem;
 }
 
-.content-item__icon {
+.container-box__icon {
     width: 24px;
     text-align: center;
 }
 
-.content-item__text.large {
+.container-box__text.container-box--large {
     width: 72px;
     text-align: start;
 }
 
 /* Process box */
-.process-box__start {
+.container-box__skillName {
     font-size: 1.6rem;
     width: 30px;
 }
 
-.process-box__start.large {
+.container-box__skillName.container-box--large {
     width: 72px;
 }
 
-.process-box {
+.container-box__skill {
     display: flex;
     justify-content: space-around;
 }
 
-.process-box__bar {
+.container-box__skillBar {
     flex: 1;
     height: 6px;
     margin: auto;
@@ -155,7 +155,7 @@
     background-color: var(--background-div);
 }
 
-.process-box__bar--percent {
+.container-box__skillBar--percent {
     width: 0;
     height: inherit;
     border-radius: inherit;
@@ -171,12 +171,12 @@
         0 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 
-.process-box__bar--percent.active-IO {
+.container-box__skillBar--percent.active-IO {
     opacity: 1;
     width: var(--process);
 }
 
-.process-box__end>.content-item__text {
+.container-box__skillPercentNumber>.container-box__text {
     display: block;
     width: 48px;
     text-align: end;
@@ -220,7 +220,7 @@
     justify-content: space-between;
 }
 
-.container-box__content-footer--btn {
+.container-box__contentBtn {
     border: 2px solid var(--text-color);
     background-color: transparent;
     border-radius: 50px;
@@ -234,7 +234,7 @@
     background-color: var(--button-color);
 }
 
-.content-item__icon.post-icon {
+.container-box__icon.post-icon {
     font-size: 1.6rem;
     color: var(--text-color);
     width: 24px;
