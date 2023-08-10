@@ -84,6 +84,10 @@ ul {
     }
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 /* Ipad + Mobile */
 @media (max-width: 1023px) {
     .container-box {
