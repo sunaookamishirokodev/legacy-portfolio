@@ -11,7 +11,6 @@
         "**/*.css",
         "**/*.scss"
     ],
-    "todohighlight.keywords": [
-    
-    ]
+    "todohighlight.keywords": [],
+    "backgroundCover.autoStatus": false
 }
