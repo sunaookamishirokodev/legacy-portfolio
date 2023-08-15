@@ -51,7 +51,6 @@
   padding: 24px;
   margin: 24px 0;
   color: var(--text-color);
-
 }
 
 .container-left .container-box {
@@ -127,6 +126,7 @@
 }
 
 .container-box__project-title {
+  display: block;
   font-size: 2rem;
   padding: 8px 0 4px;
 }
@@ -135,30 +135,28 @@
   margin: 12px 0;
 }
 
-.container-box__project-status-display {
+.status-display--finished,
+.status-display--pending,
+.status-display--processing {
   height: 40px;
   width: 100%;
-  margin: auto;
+  margin: 12px 0 0;
   line-height: 40px;
   text-align: center;
   color: white;
   text-transform: uppercase;
+  display: block;
+  border-radius: 15px;
 }
 
 .status-display--pending {
-  display: block;
-  border-radius: 15px;
   background-color: #ef4444;
 }
 
 .status-display--processing {
-  display: block;
-  border-radius: 15px;
   background-color: #fde047;
 }
 
 .status-display--finished {
-  display: block;
-  border-radius: 15px;
   background-color: #4ade80;
 }
