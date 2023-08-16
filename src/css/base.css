@@ -39,4 +39,18 @@ body {
   -ms-content-zooming: none
 }
 
-::-webkit-scrollbar {display:none}
+::-webkit-scrollbar {
+  display: none
+}
+
+.container-box.container-box--demo {
+  overflow: auto;
+  resize: vertical;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.container-box.container-box--demo p {
+  background: linear-gradient(to right, #fde047, #ef4444);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
