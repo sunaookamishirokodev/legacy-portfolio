@@ -32,25 +32,26 @@ const displayOfStatus = document.getElementById('status')
 }
 
 // Khu vực thuật toán (không chỉnh sửa)
-const introductionKeys = Object.keys(myIntroductionSocial)
-for (let i = 0; i < introductionKeys.length; i++) {
-  introduction[i].setAttribute('href', myIntroductionSocial[introductionKeys[i]])
+const introductionValues = Object.values(myIntroductionSocial)
+const skillPercentValues = Object.values(mySkillPercent)
+const learningWebsiteValues = Object.values(myLearningWebsite)
+
+for (let i = 0; i < introductionValues.length; i++) {
+  introduction[i].setAttribute('href', introductionValues[i])
   introduction[i].setAttribute('target', '_blank')
 }
 
-const aboutMeKeys = Object.keys(myAboutMe)
-for (let i = 0; i < aboutMeKeys.length; i++) {
-  aboutMe[i].textContent = myAboutMe[aboutMeKeys[i]]
+const aboutMeValues = Object.values(myAboutMe)
+for (let i = 0; i < aboutMeValues.length; i++) {
+  aboutMe[i].textContent = aboutMeValues[i]
 }
 
-const skillPercentKeys = Object.keys(mySkillPercent)
-for (let i = 0; i < skillPercentKeys.length; i++) {
-  skillPercent[i].setAttribute('style', `--process: ${mySkillPercent[skillPercentKeys[i]]}%`)
+for (let i = 0; i < skillPercentValues.length; i++) {
+  skillPercent[i].setAttribute('style', `--process: ${skillPercentValues[i]}%`)
 }
 
-const learningWebsiteKeys = Object.keys(myLearningWebsite)
-for (let i = 0; i < learningWebsiteKeys.length - 1; i++) {
-  learningWebsite[i].textContent = myLearningWebsite[learningWebsiteKeys[i]]
+for (let i = 0; i < learningWebsiteValues.length - 1; i++) {
+  learningWebsite[i].textContent = learningWebsiteValues[i]
 }
 
 displayOfStatus.className = `status-display--${myLearningWebsite['status']}`
