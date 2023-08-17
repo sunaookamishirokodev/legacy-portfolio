@@ -102,7 +102,7 @@
   text-decoration: none;
 }
 
-.container-box__process--empty {
+.container-box__process-bar--empty {
   flex: 1;
   height: 6px;
   margin: 0 4px;
@@ -110,7 +110,7 @@
   background-color: var(--background-color);
 }
 
-.container-box__process--percent {
+.container-box__process-bar--percent {
   height: inherit;
   width: 0;
   border-radius: 2.5px;
@@ -120,9 +120,14 @@
   transition: all 0.8s 0.8s ease-out;
 }
 
-.container-box__process--percent.active {
+.container-box__process-bar--percent.active {
   opacity: 1;
   width: var(--process);
+}
+
+.container-box__process-text {
+  width: 35px;
+  text-align: end;
 }
 
 .container-box__project-title {

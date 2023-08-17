@@ -51,6 +51,7 @@ body {
 }
 .container-box.container-box--demo p {
   background: linear-gradient(to right, #fde047, #ef4444);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

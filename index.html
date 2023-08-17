@@ -6,23 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
   <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
 
   <link rel="preload stylesheet" as="style"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer">
-  <link rel="preload stylesheet" as="style"
+  <link rel="preconnect stylesheet" as="style"
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="preload stylesheet" as="style" href="/src/css/grid.css">
   <link rel="preload stylesheet" as="style" href="/src/css/base.css">
   <link rel="preload stylesheet" as="style" href="/src/css/index.css">
-  <link rel="icon" type="image/x-icon" href="/src/img/favicon.png">
+  <link rel="preload" as="script" href="/src/js/main.js">
+  <link rel="shortcut icon" type="image/x-icon" href="/src/img/favicon.png">
   <title>Sunaookami Shiroko | Website</title>
 </head>
 
 <body>
-  <div class="profile">
+  <div class="web">
     <div class="grid wide">
       <div class="row">
         <div class="col l-12 m-12 c-12">
@@ -107,27 +110,31 @@
                   <ul class="container-box__list processList">
                     <li class="container-box__item container-box__item--flex-row" title="HTML">
                       <i class="fa-brands fa-html5"></i>
-                      <div class="container-box__process--empty">
-                        <div class="container-box__process--percent skillPercent"></div>
+                      <div class="container-box__process-bar--empty">
+                        <div class="container-box__process-bar--percent skillPercent"></div>
                       </div>
+                      <span class="container-box__process-text"></span>
                     </li>
                     <li class="container-box__item container-box__item--flex-row" title="CSS">
                       <i class="fa-brands fa-css3"></i>
-                      <div class="container-box__process--empty">
-                        <div class="container-box__process--percent skillPercent"></div>
+                      <div class="container-box__process-bar--empty">
+                        <div class="container-box__process-bar--percent skillPercent"></div>
                       </div>
+                      <span class="container-box__process-text"></span>
                     </li>
                     <li class="container-box__item container-box__item--flex-row" title="Javascript">
                       <i class="fa-brands fa-square-js"></i>
-                      <div class="container-box__process--empty">
-                        <div class="container-box__process--percent skillPercent"></div>
+                      <div class="container-box__process-bar--empty">
+                        <div class="container-box__process-bar--percent skillPercent"></div>
                       </div>
+                      <span class="container-box__process-text"></span>
                     </li>
                     <li class="container-box__item container-box__item--flex-row" title="Python">
                       <i class="fa-brands fa-python"></i>
-                      <div class="container-box__process--empty">
-                        <div class="container-box__process--percent skillPercent"></div>
+                      <div class="container-box__process-bar--empty">
+                        <div class="container-box__process-bar--percent skillPercent"></div>
                       </div>
+                      <span class="container-box__process-text"></span>
                     </li>
                   </ul>
                 </section>
@@ -144,7 +151,7 @@
                     </li>
                   </ul>
                 </section>
-                <section class="container-box container-box--demo"></section>
+                <section class="container-box container-box--demo" contenteditable="true"></section>
               </div>
             </div>
           </div>
@@ -152,8 +159,8 @@
       </div>
     </div>
   </div>
-  <script src="/src/js/main.js"></script>
-  <script src="/src/js/index.js"></script>
+  <script async src="/src/js/index.js"></script>
+  <script async src="/src/js/main.js"></script>
 </body>
 
 </html>
