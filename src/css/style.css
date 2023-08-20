@@ -1,0 +1,149 @@
+.container-box__item--flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.container-box__item--flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.status-display--finished,
+.status-display--pending,
+.status-display--processing {
+  height: 40px;
+  width: 100%;
+  margin: 12px 0 0;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  display: block;
+  border-radius: 15px;
+}
+
+.status-display--pending {
+  background-color: #ef4444;
+}
+
+.status-display--processing {
+  background-color: #fde047;
+}
+
+.status-display--finished {
+  background-color: #4ade80;
+}
+
+.profile__banner .profile__background {
+  background: url("/src/img/shiroko_background.webp") center/cover no-repeat;
+  padding-bottom: 25%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+}
+.profile__banner .profile__background .profile__avatar {
+  position: absolute;
+  bottom: -82.5px;
+  left: 45px;
+  display: flex;
+  align-items: flex-end;
+}
+.profile__banner .profile__background .profile__avatar .profile__avatar-img {
+  background: url("/src/img/shiroko_avatar.webp") center/cover no-repeat;
+  height: 165px;
+  width: 165px;
+  border-radius: 100%;
+  border: 7px solid var(--theme-color);
+}
+.profile__banner .profile__background .profile__avatar .profile__avatar-name {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: var(--text-color);
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+
+.container {
+  margin-top: 120px;
+}
+.container .container-box {
+  will-change: transform;
+  background-color: var(--theme-color);
+  border-radius: 10px;
+  padding: 24px;
+  margin: 24px 0;
+  color: var(--text-color);
+  transition: all 0.8s ease-out;
+  opacity: 0;
+}
+.container .container-box.active {
+  transform: translateX(0) !important;
+  -webkit-transform: translateX(0) !important;
+  opacity: 1 !important;
+}
+.container .container-box__title {
+  margin-bottom: 12px;
+}
+.container .container-box__title .container-box__title-text {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.container .container-box__list {
+  list-style: none;
+  font-size: 1.6rem;
+  line-height: 20px;
+}
+.container .container-box__list .container-box__item {
+  margin: 8px 0;
+}
+.container .container-box__list .container-box__item i {
+  display: inline-block;
+  text-align: center;
+  width: 24px;
+}
+.container .container-box__list .container-box__item .container-box__content.container-box__content-link {
+  color: inherit;
+  text-decoration: none;
+}
+.container .container-box__list .container-box__item .container-box__process-bar--empty {
+  flex: 1;
+  height: 6px;
+  margin: 0 4px;
+  border-radius: 2.5px;
+  background-color: var(--background-color);
+}
+.container .container-box__list .container-box__item .container-box__process-bar--empty .container-box__process-bar--percent {
+  height: inherit;
+  width: 0;
+  border-radius: 2.5px;
+  opacity: 0;
+  will-change: transform;
+  background-color: var(--blue-color);
+  transition: all 0.8s 0.8s ease-out;
+}
+.container .container-box__list .container-box__item .container-box__process-bar--empty .container-box__process-bar--percent.active {
+  opacity: 1;
+  width: var(--process);
+}
+.container .container-box__list .container-box__item .container-box__process-text {
+  width: 35px;
+  text-align: end;
+}
+.container .container-box__list .container-box__item .container-box__project-title {
+  display: block;
+  font-size: 2rem;
+  padding: 8px 0 4px;
+}
+.container .container-box__list .container-box__item .container-box__project-desc {
+  margin: 12px 0;
+}
+.container .container-left .container-box {
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+}
+.container .container-right .container-box {
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+}
+
+/*# sourceMappingURL=style.css.map */

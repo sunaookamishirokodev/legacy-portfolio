@@ -1,0 +1,17 @@
+{
+  "name": "sunaookamishirokoweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/src/js/main.js",
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "rcss": "sass src/scss:src/css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.3",
+    "sass": "^1.66.1"
+  }
+}

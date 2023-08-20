@@ -6,6 +6,16 @@ const learningWebsite = document.querySelectorAll('.learningWebsite')
 const displayOfStatus = document.getElementById('status')
 const demoBox = document.querySelector('.container-box.container-box--demo')
 
+// var MySocialLinkApi = 'http://localhost:3000/SunaookamiShiroko'
+
+// fetch(MySocialLinkApi)
+//   .then(function(res) {
+//     return res.json()
+//   })
+//   .then(function(linkApi) {
+    
+//   })
+
 const myIntroductionSocial = {
   github: 'https://github.com/sunaookamishirokodev',
   discord: 'https://discord.com/users/962375717465763961',

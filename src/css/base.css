@@ -11,8 +11,8 @@
 }
 
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: inherit;
 }
 
@@ -42,6 +42,22 @@ body {
 ::-webkit-scrollbar {
   display: none
 }
+
+/* .container-left .container-box {
+  transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+}
+
+.container-right .container-box {
+  transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+}
+
+.container-box.active {
+  transform: translateX(0) !important;
+  -webkit-transform: translateX(0) !important;
+  opacity: 1 !important; 
+}*/
 
 .container-box.container-box--demo {
   overflow: auto;

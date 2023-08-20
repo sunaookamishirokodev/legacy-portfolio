@@ -1,0 +1,61 @@
+{
+  "SunaookamiShiroko": [
+    {
+      "id": 1,
+      "title": "github",
+      "link": "https://github.com/sunaookamishirokodev"
+    },
+    {
+      "id": 2,
+      "title": "discord",
+      "link": "https://discord.com/users/962375717465763961"
+    },
+    {
+      "id": 3,
+      "title": "spotify",
+      "link": "https://open.spotify.com/user/312qsrew377u5dombenfkfxwtbty"
+    },
+    {
+      "id": 4,
+      "title": "facebook",
+      "link": "https://www.facebook.com/sunaookamishirokodev"
+    },
+    {
+      "id": 5,
+      "title": "mail",
+      "link": "mailto:sunaookamishirokodev"
+    }
+  ],
+  "ListLanguages": [
+    {
+      "id": 1,
+      "name": "HTML",
+      "description": "Ngôn ngữ đánh dấu siêu văn bản."
+    },
+    {
+      "id": 2,
+      "name": "CSS",
+      "description": "Ngôn ngữ dùng để tạo nên phong cách cho trang web."
+    },
+    {
+      "id": 4,
+      "name": "PHP",
+      "description": "Ngôn ngữ lập trình kịch bản hay một loại mã lệnh chủ yếu được dùng để phát triển các ứng dụng viết cho máy chủ, mã nguồn mở, dùng cho mục đích tổng quát."
+    },
+    {
+      "id": 5,
+      "name": "Python",
+      "description": "Ngôn ngữ kịch bản mã nguồn mở."
+    },
+    {
+      "id": 6,
+      "name": "C++",
+      "description": "Ngôn ngữ C được gọi là “ngôn ngữ mẹ” của ngành IT, bởi chúng được sử dụng như cơ sở, nền tảng chính dành cho những ngôn ngữ khác."
+    },
+    {
+      "id": 7,
+      "name": "SASS",
+      "description": "Chương trình tiền xử lý bằng ngôn ngữ kịch bản Preprocessor Scripting Language."
+    }
+  ]
+}
