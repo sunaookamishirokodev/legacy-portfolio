@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 *,
 ::before,
 ::after {
@@ -10,7 +11,7 @@
 html {
   font-size: 62.5%;
   line-height: 1.6rem;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   background-color: #121212;
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -27,11 +28,11 @@ body {
   -webkit-font-smoothing: antialiased;
   overscroll-behavior: none;
   -webkit-user-drag: none;
-  -ms-content-zooming: none;
+  -ms-content-zooming: none
 }
 
 ::-webkit-scrollbar {
-  display: none;
+  display: none
 }
 
 .container-box.container-box--demo {
@@ -40,12 +41,9 @@ body {
   font-size: 3rem;
   line-height: 3rem;
 }
-
 .container-box.container-box--demo p {
   background: linear-gradient(to right, #fde047, #ef4444);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
-/*# sourceMappingURL=base.css.map */

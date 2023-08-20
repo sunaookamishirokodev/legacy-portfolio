@@ -1,3 +1,12 @@
+$white-color: #fff;
+$black-color: #000;
+$blue-color: #1d6ff6;
+$theme-color: #1c1c1c;
+$background-color: #575757;
+$text-color: #e3e3e3;
+$button-color: #7c7c7c;
+// Không lạm dụng cách đặt biến này trong file base có nhiều file css cùng sử dụng
+
 .container-box__item--flex-row {
   display: flex;
   align-items: center;
@@ -15,8 +24,8 @@
   width: 100%;
   margin: 12px 0 0;
   line-height: 40px;
+  color: $white-color;
   text-align: center;
-  color: white;
   text-transform: uppercase;
   display: block;
   border-radius: 15px;
@@ -38,8 +47,10 @@
   .profile__background {
     background: url('/src/img/shiroko_background.webp') center/cover no-repeat;
     padding-bottom: 25%;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom: {
+      left-radius: 20px;
+      right-radius: 20px;
+    }
     position: relative;
 
     .profile__avatar {
@@ -54,15 +65,14 @@
         height: 165px;
         width: 165px;
         border-radius: 100%;
-        border: 7px solid var(--theme-color);
+        border: 7px solid $theme-color;
       }
 
       .profile__avatar-name {
         font-size: 3.5rem;
         font-weight: 600;
-        color: var(--text-color);
-        padding-bottom: 50px;
-        padding-left: 20px;
+        color: $text-color;
+        padding: 0 0 50px 20px;
       }
     }
   }
@@ -71,33 +81,33 @@
 .container {
   margin-top: 120px;
 
-  .container-box {
+  &-box {
     will-change: transform;
-    background-color: var(--theme-color);
+    background-color: $theme-color;
     border-radius: 10px;
     padding: 24px;
     margin: 24px 0;
-    color: var(--text-color);
+    color: $text-color;
     transition: all 0.8s ease-out;
     opacity: 0;
   }
 
-  .container-box.active {
+  &-box.active {
     transform: translateX(0) !important;
     -webkit-transform: translateX(0) !important;
     opacity: 1 !important;
   }
 
-  .container-box__title {
+  &-box__title {
     margin-bottom: 12px;
 
-    .container-box__title-text {
+    &-text {
       font-size: 3rem;
       font-weight: 600;
     }
   }
 
-  .container-box__list {
+  &-box__list {
     list-style: none;
     font-size: 1.6rem;
     line-height: 20px;
@@ -116,26 +126,26 @@
         text-decoration: none;
       }
 
-      .container-box__process-bar--empty {
+      .container-box__process-bar {
         flex: 1;
         height: 6px;
         margin: 0 4px;
         border-radius: 2.5px;
-        background-color: var(--background-color);
+        background-color: $background-color;
 
-        .container-box__process-bar--percent {
+        &--percent {
           height: inherit;
           width: 0;
           border-radius: 2.5px;
           opacity: 0;
           will-change: transform;
-          background-color: var(--blue-color);
+          background-color: $blue-color;
           transition: all 0.8s 0.8s ease-out;
         }
 
-        .container-box__process-bar--percent.active {
+        &--percent.active {
           opacity: 1;
-          width: var(--process);
+          width: var(--process); //không thể đổi
         }
       }
 
