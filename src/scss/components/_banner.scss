@@ -1,0 +1,36 @@
+.profile__banner {
+  position: relative;
+
+  .profile__background {
+    background: url('/src/img/shiroko_background.webp') center/cover no-repeat;
+    padding-bottom: 25%;
+
+    border-bottom: {
+      left-radius: 20px;
+      right-radius: 20px;
+    }
+
+    .profile__avatar {
+      position: absolute;
+      bottom: calc(-165px / 2);
+      left: 45px;
+      display: flex;
+      align-items: flex-end;
+
+      .profile__avatar-img {
+        background: url('/src/img/shiroko_avatar.webp') center/cover no-repeat;
+        height: 165px;
+        width: 165px;
+        border-radius: 100%;
+        border: 7px solid $theme-color;
+      }
+
+      .profile__avatar-name {
+        font-size: 3.5rem;
+        font-weight: 600;
+        color: $text-color;
+        padding: 0 0 50px 20px;
+      }
+    }
+  }
+}
