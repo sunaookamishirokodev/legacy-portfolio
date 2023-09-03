@@ -1,3 +1,2 @@
-/nodemodule/
+/node_modules/
 /src/scss/
-/package-lock.json
