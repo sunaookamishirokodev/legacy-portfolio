@@ -620,7 +620,7 @@ body {
   align-items: flex-end;
 }
 .profile__banner .profile__background .profile__avatar .profile__avatar-img {
-  background: url("/src/img/shiroko_avatar.webp") center/cover no-repeat;
+  background: url("/src/img/shiroko_avatar.jpg") center/cover no-repeat;
   height: 165px;
   width: 165px;
   border-radius: 100%;
@@ -720,5 +720,3 @@ body {
   opacity: 0;
   transition: all 0.8s ease-out;
 }
-
-/*# sourceMappingURL=index.css.map */
