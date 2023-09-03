@@ -1,20 +1,10 @@
+"use strict"
 const introduction = document.querySelectorAll('.introduction')
 const aboutMe = document.querySelectorAll('.aboutMe')
 const skillPercent = document.querySelectorAll('.skillPercent')
 const skillText = document.querySelectorAll('.container-box__process-text')
 const learningWebsite = document.querySelectorAll('.learningWebsite')
 const displayOfStatus = document.getElementById('status')
-const demoBox = document.querySelector('.container-box.container-box--demo')
-
-// var MySocialLinkApi = 'http://localhost:3000/SunaookamiShiroko'
-
-// fetch(MySocialLinkApi)
-//   .then(function(res) {
-//     return res.json()
-//   })
-//   .then(function(linkApi) {
-    
-//   })
 
 const myIntroductionSocial = {
   github: 'https://github.com/sunaookamishirokodev',
@@ -31,20 +21,17 @@ const myAboutMe = {
 }
 
 const mySkillPercent = {
-  HTML: 60,
-  CSS: 40,
-  JavaScript: 15,
-  Python: 2
+  HTML: 85,
+  CSS: 70,
+  JavaScript: 50,
+  Python: 2,
 }
 
 const myLearningWebsite = {
   title: 'Learning Website',
   desc: 'Website dùng để tra tài liệu, lời giải sgk sbt,.. và là nền tảng để học online cho các bạn. Đồng thời được tích hợp trí tuệ nhân tạo và nhiều tính năng mới để hỗ trợ các bạn có thể tăng hiệu suất học tập:3 (dự tính triển khai sau tết âm lịch năm 2024)',
-  status: 'processing'
+  status: 'pending'
 }
-
-demoBox.innerHTML = 
-'<p>Bạn có thể chỉnh kích thước, và sửa chữ ô này</p>'
 
 // Khu vực thuật toán (không chỉnh sửa)
 const introductionValues = Object.values(myIntroductionSocial)

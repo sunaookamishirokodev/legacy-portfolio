@@ -17,7 +17,6 @@
   <link rel="preconnect stylesheet" as="style"
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="preload stylesheet" as="style" href="/src/css/main.css">
-  <link rel="preload" as="script" href="/src/js/main.js">
   <link rel="shortcut icon" type="image/x-icon" href="/src/img/favicon.png">
   <title>Sunaookami Shiroko | Website</title>
 </head>
@@ -45,56 +44,14 @@
                   <div class="container-box__title">
                     <span class="container-box__title-text">Introduction</span>
                   </div>
-                  <ul class="container-box__list">
-                    <li class="container-box__item">
-                      <i class="fa-solid fa-user"></i>
-                      <a class="container-box__content container-box__content-link">Sunaookami Shirko</a>
-                    </li>
-                    <li class="container-box__item">
-                      <i class="fa-solid fa-code"></i>
-                      <a class="container-box__content container-box__content-link">Newbie Developer</a>
-                    </li>
-                    <li class="container-box__item">
-                      <i class="fa-brands fa-github"></i>
-                      <a class="container-box__content container-box__content-link introduction">Shiroko - Github</a>
-                    </li>
-                    <li class="container-box__item">
-                      <i class="fa-brands fa-discord"></i>
-                      <a class="container-box__content container-box__content-link introduction">Shiroko - Discord</a>
-                    </li>
-                    <li class="container-box__item">
-                      <i class="fa-brands fa-spotify"></i>
-                      <a class="container-box__content container-box__content-link introduction">Shiroko - Spotify</a>
-                    </li>
-                    <li style="display: none" class="container-box__item">
-                      <i class="fa-brands fa-facebook"></i>
-                      <a class="container-box__content container-box__content-link introduction">Shiroko - Facebook</a>
-                    </li>
-                    <li class="container-box__item">
-                      <i class="fa-solid fa-at"></i>
-                      <a class="container-box__content container-box__content-link introduction">Shiroko - Mail</a>
-                    </li>
-                  </ul>
+                  <ul class="container-box__list" id="linkSocialJS"></ul>
                 </section>
 
                 <section class="container-box">
                   <div class="container-box__title">
                     <span class="container-box__title-text">About Me</span>
                   </div>
-                  <ul class="container-box__list">
-                    <li class="container-box__item">
-                      <i class="fa-solid fa-user"></i>
-                      <a class="container-box__content aboutMe"></a>
-                    </li>
-                    <li class="container-box__item">
-                      <i class="fa-solid fa-phone"></i>
-                      <a class="container-box__content aboutMe"></a>
-                    </li>
-                    <li class="container-box__item">
-                      <i class="fa-solid fa-venus"></i>
-                      <a class="container-box__content aboutMe"></a>
-                    </li>
-                  </ul>
+                  <ul class="container-box__list" id="aboutMeJS"></ul>
                 </section>
               </div>
             </div>
@@ -103,34 +60,13 @@
 
                 <section class="container-box">
                   <div class="container-box__title">
-                    <span class="container-box__title-text">Skills Proces</span>
+                    <span class="container-box__title-text">Skills Process</span>
                   </div>
-                  <ul class="container-box__list processList">
+                  <ul class="container-box__list processList" id="skillJS">
                     <li class="container-box__item container-box__item--flex-row" title="HTML">
                       <i class="fa-brands fa-html5"></i>
                       <div class="container-box__process-bar">
-                        <div class="container-box__process-bar--percent skillPercent"></div>
-                      </div>
-                      <span class="container-box__process-text"></span>
-                    </li>
-                    <li class="container-box__item container-box__item--flex-row" title="CSS">
-                      <i class="fa-brands fa-css3"></i>
-                      <div class="container-box__process-bar">
-                        <div class="container-box__process-bar--percent skillPercent"></div>
-                      </div>
-                      <span class="container-box__process-text"></span>
-                    </li>
-                    <li class="container-box__item container-box__item--flex-row" title="Javascript">
-                      <i class="fa-brands fa-square-js"></i>
-                      <div class="container-box__process-bar">
-                        <div class="container-box__process-bar--percent skillPercent"></div>
-                      </div>
-                      <span class="container-box__process-text"></span>
-                    </li>
-                    <li class="container-box__item container-box__item--flex-row" title="Python">
-                      <i class="fa-brands fa-python"></i>
-                      <div class="container-box__process-bar">
-                        <div class="container-box__process-bar--percent skillPercent"></div>
+                        <div class="container-box__process-bar--percent"></div>
                       </div>
                       <span class="container-box__process-text"></span>
                     </li>
@@ -141,7 +77,7 @@
                   <div class="container-box__title">
                     <span class="container-box__title-text">Projects Process</span>
                   </div>
-                  <ul class="container-box__list">
+                  <ul class="container-box__list" id="projectJS">
                     <li class="container-box__item">
                       <span class="container-box__project-title learningWebsite"></span>
                       <span class="container-box__project-desc learningWebsite"></span>
@@ -149,29 +85,6 @@
                     </li>
                   </ul>
                 </section>
-                <!-- <section class="container-box">
-
-                  <div>
-                    <h2>Danh sách ngôn ngữ</h2>
-                    <ul id="list-languages"></ul>
-                  </div>
-
-                  <div>
-                    <div>
-                      <label>Name</label>
-                      <input autocomplete="off" type="text" name="name">
-                    </div>
-                    <div>
-                      <label>Description</label>
-                      <input autocomplete="off" type="text" name="description">
-                    </div>
-                    <div>
-                      <button id="create">Create</button>
-                    </div>
-                  </div>
-
-                </section> -->
-                <section class="container-box container-box--demo" contenteditable="true"></section>
               </div>
             </div>
           </div>
@@ -179,10 +92,8 @@
       </div>
     </div>
   </div>
-  <script async src="/src/js/index.js"></script>
-  <script async src="/src/js/main.js"></script>
-  <!-- <script async src="/src/js/app.js"></script> -->
-
+  <script src="/src/js/data.js"></script>
+  <script src="/src/js/index.js"></script>
 </body>
 
 </html>
