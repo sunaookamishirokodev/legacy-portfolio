@@ -589,20 +589,6 @@ body {
   background-color: #4ade80;
 }
 
-.container-box.container-box--demo {
-  overflow: auto;
-  resize: vertical;
-  font-size: 3rem;
-  line-height: 3rem;
-}
-
-.container-box.container-box--demo p {
-  background: linear-gradient(to right, #fde047, #ef4444);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .profile__banner {
   position: relative;
 }

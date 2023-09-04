@@ -1,14 +1,16 @@
 "use strict" //Turn on strict mode
+const $ = document.querySelector.bind(document)
+const $$ = document.querySelectorAll.bind(document)
 
 fetch("/src/json/data.json")
   .then((res) => res.json())
-  .then((getData) => renderData(getData))
+  .then((data) => renderData(data))
 
 function renderData(data) {
-  const linkSocialSelector = document.getElementById('linkSocialJS')
-  const aboutMeSelector = document.getElementById('aboutMeJS')
-  const skillSelector = document.getElementById('skillJS')
-  const projectSelector = document.getElementById('projectJS')
+  const linkSocialSelector = $('#linkSocialJS')
+  const aboutMeSelector = $('#aboutMeJS')
+  const skillSelector = $('#skillJS')
+  const projectSelector = $('#projectJS')
 
   const linkSocialArray = []
   const aboutMeArray = []
