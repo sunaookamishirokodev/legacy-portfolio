@@ -1,10 +1,8 @@
 (function () {
-  const processList = document.querySelector('.processList')
   const leftProfileContainer = document.querySelector('.container-left')
   const rightProfileContainer = document.querySelector('.container-right')
 
-  console.log(processList)
-  const performItems = processList.querySelectorAll('.container-box__process-bar--percent')
+  const skillList = document.querySelectorAll('#skillJS')
   const leftItems = leftProfileContainer.querySelectorAll('.container-box')
   const rightItems = rightProfileContainer.querySelectorAll('.container-box')
 
@@ -20,11 +18,10 @@
           }
         })
       )
-
       observer.observe(item)
     }
   }
 
-  const observerItems = [performItems, performItems, leftItems, rightItems]
+  const observerItems = [skillList, leftItems, rightItems]
   observerItems.forEach(items => addObserver(items))
 })()

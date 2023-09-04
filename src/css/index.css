@@ -660,6 +660,10 @@ body {
   font-size: 1.6rem;
   line-height: 20px;
 }
+.container-box__list.active .container-box__process-bar--percent {
+  opacity: 1;
+  width: var(--process);
+}
 .container-box__list > * {
   margin: 8px 0;
 }
@@ -689,10 +693,6 @@ body {
   width: 0;
   border-radius: 2.5px;
   background-color: #1d6ff6;
-}
-.container-box__list > * .container-box__process-bar--percent.active {
-  opacity: 1;
-  width: var(--process);
 }
 .container-box__list > * .container-box__process-text {
   width: 35px;
