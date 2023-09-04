@@ -21,7 +21,7 @@ function renderData(data) {
   const projectValues = Object.values(data['myProject'])
 
   for (let i = 0; i < linkSocialValues.length; i++) {
-    linkSocialArray.push(`<li class="container-box__item">${linkSocialValues[i].icon}<a href="${linkSocialValues[i].link}" class="container-box__content container-box__content-link">${linkSocialValues[i].title}</a><li>`)
+    linkSocialArray.push(`<li class="container-box__item">${linkSocialValues[i].icon}<a href="${linkSocialValues[i].link}" target="_blank" class="container-box__content container-box__content-link">${linkSocialValues[i].title}</a><li>`)
   }
   for (let i = 0; i < aboutMeValues.length; i++) {
     aboutMeArray.push(`<li class="container-box__item">${aboutMeValues[i].icon}<a class="container-box__content aboutMe">${aboutMeValues[i].text}</a></li>`)
