@@ -600,10 +600,19 @@ body {
 }
 .profile__banner .profile__background .profile__avatar {
   position: absolute;
-  bottom: -82.5px;
+  bottom: -82px;
   left: 45px;
   display: flex;
   align-items: flex-end;
+}
+@media (max-width: 767px) {
+  .profile__banner .profile__background .profile__avatar {
+    left: 0;
+    bottom: -150px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
 }
 .profile__banner .profile__background .profile__avatar .profile__avatar-img {
   background: url("/src/img/shiroko_avatar.jpg") center/cover no-repeat;
