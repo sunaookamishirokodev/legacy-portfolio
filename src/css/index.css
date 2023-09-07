@@ -593,7 +593,7 @@ body {
   position: relative;
 }
 .profile__banner .profile__background {
-  background: url("/src/img/shiroko_background.webp") center/cover no-repeat;
+  background: url("/src/img/shiroko-blue-archive-3.gif") center/cover no-repeat;
   padding-bottom: 25%;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -615,7 +615,7 @@ body {
   }
 }
 .profile__banner .profile__background .profile__avatar .profile__avatar-img {
-  background: url("/src/img/shiroko_avatar.jpg") center/cover no-repeat;
+  background: url("/src/img/shiroko_1.jpg") center/cover no-repeat;
   height: 165px;
   width: 165px;
   border-radius: 100%;
