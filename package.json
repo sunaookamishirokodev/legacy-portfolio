@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "json-server --watch db.json",
-    "rcss": "sass src/scss:src/css -w --no-source-map",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "SunaookamiShiroko",
