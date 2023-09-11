@@ -82,6 +82,11 @@
       "title": "Learning Website",
       "desc": "Website dùng để tra tài liệu, lời giải sgk sbt,.. và là nền tảng để học online cho các bạn. Đồng thời được tích hợp trí tuệ nhân tạo và nhiều tính năng mới để hỗ trợ các bạn có thể tăng hiệu suất học tập:3 (dự tính triển khai sau tết âm lịch năm 2024)",
       "status": "pending"
+    },
+    "schoolSystem": {
+      "title": "School System",
+      "desc": "Hệ thống trang web&app dành cho trường học",
+      "status": "pending"
     }
   }
 }
