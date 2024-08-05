@@ -1,92 +1,92 @@
 {
-  "myLinkSocial": {
-    "author": {
-      "title": "Sunaookami Shiroko",
-      "link": "",
-      "icon": "<i class=\"fa-solid fa-user\"></i>"
+    "myLinkSocial": {
+        "author": {
+            "title": "Sunaookami Shiroko",
+            "link": "",
+            "icon": "<i class=\"fa-solid fa-user\"></i>"
+        },
+        "role": {
+            "title": "Newbie Developer",
+            "link": "",
+            "icon": "<i class=\"fa-solid fa-code\"></i>"
+        },
+        "github": {
+            "title": "Shiroko - Github",
+            "link": "https://github.com/sunaookamishirokodev",
+            "icon": "<i class=\"fa-brands fa-github\"></i>"
+        },
+        "discord": {
+            "title": "Shiroko - Discord",
+            "link": "https://discord.com/users/1216624112139632711",
+            "icon": "<i class=\"fa-brands fa-discord\"></i>"
+        },
+        "facebook": {
+            "title": "Shiroko - Discord",
+            "link": "https://www.facebook.com/sunaookamishiroko.developer/",
+            "icon": "<i class=\"fa-brands fa-facebook\"></i>"
+        },
+        "spotify": {
+            "title": "Shiroko - Spotify",
+            "link": "https://open.spotify.com/user/mtna36hm5unvpmijngozc34cy?si=9acece85a3084b43",
+            "icon": "<i class=\"fa-brands fa-spotify\"></i>"
+        },
+        "gmail": {
+            "title": "Shiroko - Email",
+            "link": "mailto:shiroko@elainateam.io",
+            "icon": "<i class=\"fa-solid fa-at\"></i>"
+        }
     },
-    "role": {
-      "title": "Newbie Developer",
-      "link": "",
-      "icon": "<i class=\"fa-solid fa-code\"></i>"
+    "myAboutMe": {
+        "textOne": {
+            "text": "Hello, I'm Shiroko - Newbie Developer. I've only been learning coding for 4 weeks and this is my first product. So it still has a lot of error, so please feel free to comment.",
+            "icon": "<i class=\"fa-solid fa-user\"></i>"
+        },
+        "textTwo": {
+            "text": "I use discord and messenger every day to communicate and work so you can always interact with me through them. And I hope we can become good friends through this product.",
+            "icon": "<i class=\"fa-solid fa-phone\"></i>"
+        },
+        "textThree": {
+            "text": "My life is full of challenges, but fortunately for me, I found her - she always comes to me when I'm happy and tries to encourage me every day to overcome the difficulties of life. That's why I love her so much.",
+            "icon": "<i class=\"fa-solid fa-venus\"></i>"
+        }
     },
-    "github": {
-      "title": "Shiroko - Github",
-      "link": "https://github.com/sunaookamishirokodev",
-      "icon": "<i class=\"fa-brands fa-github\"></i>"
+    "mySkill": {
+        "HTML": {
+            "title": "HTML",
+            "percent": 10,
+            "icon": "<i class=\"fa-brands fa-html5\"></i>"
+        },
+        "CSS": {
+            "title": "CSS",
+            "percent": 9,
+            "icon": "<i class=\"fa-brands fa-css3\"></i>"
+        },
+        "JS": {
+            "title": "JavaScript",
+            "percent": 8,
+            "icon": "<i class=\"fa-brands fa-square-js\"></i>"
+        },
+        "SASS": {
+            "title": "SASS",
+            "percent": 7,
+            "icon": "<i class=\"fa-brands fa-sass\"></i>"
+        },
+        "ReactJS": {
+            "title": "ReactJS",
+            "percent": 6,
+            "icon": "<i class=\"fa-brands fa-react\"></i>"
+        },
+        "Py": {
+            "title": "Python",
+            "percent": 2,
+            "icon": "<i class=\"fa-brands fa-python\"></i>"
+        }
     },
-    "discord": {
-      "title": "Shiroko - Discord",
-      "link": "https://discord.com/users/962375717465763961",
-      "icon": "<i class=\"fa-brands fa-discord\"></i>"
-    },
-    "spotify": {
-      "title": "Shiroko - Spotify",
-      "link": "https://open.spotify.com/user/312qsrew377u5dombenfkfxwtbty",
-      "icon": "<i class=\"fa-brands fa-spotify\"></i>"
-    },
-    "gmail": {
-      "title": "Shiroko - Email",
-      "link": "mailto:sunaookamishirokodev",
-      "icon": "<i class=\"fa-solid fa-at\"></i>"
+    "myProject": {
+        "learningWebsite": {
+            "title": "Portfolio Website",
+            "desc": "Website cá nhân của tui",
+            "status": "active"
+        }
     }
-  },
-  "myAboutMe": {
-    "textOne": {
-      "text": "Hello, I'm Shiroko - Newbie Developer. I've only been learning coding for 4 weeks and this is my first product. So it still has a lot of error, so please feel free to comment.",
-      "icon": "<i class=\"fa-solid fa-user\"></i>"
-    },
-    "textTwo": {
-      "text": "I use discord and messenger every day to communicate and work so you can always interact with me through them. And I hope we can become good friends through this product.",
-      "icon": "<i class=\"fa-solid fa-phone\"></i>"
-    },
-    "textThree": {
-      "text": "My life is full of challenges, but fortunately for me, I found her - she always comes to me when I'm happy and tries to encourage me every day to overcome the difficulties of life. That's why I love her so much.",
-      "icon": "<i class=\"fa-solid fa-venus\"></i>"
-    }
-  },
-  "mySkill": {
-    "HTML": {
-      "title": "HTML",
-      "percent": 85,
-      "icon": "<i class=\"fa-brands fa-html5\"></i>"
-    },
-    "CSS": {
-      "title": "CSS",
-      "percent": 70,
-      "icon": "<i class=\"fa-brands fa-css3\"></i>"
-    },
-    "JS": {
-      "title": "JavaScript",
-      "percent": 50,
-      "icon": "<i class=\"fa-brands fa-square-js\"></i>"
-    },
-    "SASS": {
-      "title": "SASS",
-      "percent": 45,
-      "icon": "<i class=\"fa-brands fa-sass\"></i>"
-    },
-    "ReactJS": {
-      "title": "ReactJS",
-      "percent": 10,
-      "icon": "<i class=\"fa-brands fa-react\"></i>"
-    },
-    "Py": {
-      "title": "Python",
-      "percent": 2,
-      "icon": "<i class=\"fa-brands fa-python\"></i>"
-    }
-  },
-  "myProject": {
-    "learningWebsite": {
-      "title": "Learning Website",
-      "desc": "Website dùng để tra tài liệu, lời giải sgk sbt,.. và là nền tảng để học online cho các bạn. Đồng thời được tích hợp trí tuệ nhân tạo và nhiều tính năng mới để hỗ trợ các bạn có thể tăng hiệu suất học tập:3 (dự tính triển khai sau tết âm lịch năm 2024)",
-      "status": "pending"
-    },
-    "schoolSystem": {
-      "title": "School System",
-      "desc": "Hệ thống trang web&app dành cho trường học",
-      "status": "pending"
-    }
-  }
 }
